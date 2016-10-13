@@ -10,10 +10,10 @@ describe('Player', function() {
       assert.equal(player.x, 400)
     })
     it('should assign an y coordinate', function() {
-      assert.equal(player.y, 500)
+      assert.equal(player.y, 550)
     })
     it('should assign a radius', function() {
-      assert.equal(player.radius, 5)
+      assert.equal(player.radius, 10)
     })
   })
 })
