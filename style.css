@@ -11,3 +11,7 @@ body {
   display: block;
   cursor: none;
 }
+
+#gamescreen {
+  color: white;
+}
