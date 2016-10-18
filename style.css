@@ -12,6 +12,13 @@ body {
   cursor: none;
 }
 
+<<<<<<< HEAD
 #gamescreen {
+=======
+#timer {
+  width: 100px;
+  height: 20px;
+  background-color: black;
+>>>>>>> development
   color: white;
 }
