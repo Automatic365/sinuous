@@ -1,5 +1,9 @@
 body {
   font-family: 'Exo', sans-serif;
+  font-family: 'Iceland', cursive;
+  font-family: 'Revalia', cursive;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Michroma', sans-serif;
   background-color: rgb(0, 0, 0);
 }
 .game-canvas {
