@@ -2,8 +2,9 @@
 // const assert = chai.assert;
 //
 // const Game = require('../lib/game');
-// const canvas = document.getElementById('game');
-// const canvasContext = canvas.getContext('2d');
+// const stub = require('./support/stub');
+// const canvas = stub();
+// const canvasContext = stub();
 // const Player = require('../lib/player');
 // const Enemy = require('../lib/enemy');
 // const Powerup = require('../lib/powerup');
@@ -14,11 +15,6 @@
 //   context('with default properties', function(){
 //     it('should be instantiated', function(){
 //       assert.instanceOf(game, Game);
-//     });
-//
-//     it('should have an x and y size', function(){
-//       assert.equal(game.size.x, canvas.width);
-//       assert.equal(game.size.y, canvas.height);
 //     });
 //
 //     it('should have a player', function(){
@@ -39,13 +35,6 @@
 //   });
 //
 //   context('page rendering', function(){
-//     it('should have a draw function', function(){
-//       assert.isFunction(game.draw);
-//     });
-//
-//     it('should have an update function', function(){
-//       assert.isFunction(game.update);
-//     });
 //
 //     it('should have a create objects function', function(){
 //       assert.isFunction(game.createGameElements);
@@ -62,7 +51,7 @@
 //     it('should have save score', function(){
 //       assert.isFunction(game.saveScore);
 //     });
-//     it('should have detect collisions', function(){
+//     it('should detect collisions', function(){
 //       assert.isFunction(game.collisionDetectionEnemy);
 //       assert.isFunction(game.collisionDetectionPowerup);
 //       assert.isFunction(game.collisionDetectionCanvas);

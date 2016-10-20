@@ -22,4 +22,15 @@ describe('Powerup', function() {
       assert.equal(powerup.yspeed, 3);
     });
   });
+  context('behaviors', function() {
+    var powerup = new Powerup(400, 550, 10, 1, 3);
+
+    it('should have a draw function', function(){
+      assert.isFunction(powerup.draw);
+    });
+
+    it('should have an update function', function(){
+      assert.isFunction(powerup.update);
+    });
+  });
 });

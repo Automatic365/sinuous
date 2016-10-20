@@ -34,10 +34,6 @@ describe('Player', function() {
       assert.isFunction(player.update);
     });
 
-    it('should have an update function', function(){
-      assert.isFunction(player.update);
-    });
-
     it('should have a deduct lives', function(){
       assert.isFunction(player.deductLife);
     });

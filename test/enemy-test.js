@@ -22,4 +22,15 @@ describe('Enemy', function() {
       assert.equal(enemy.yspeed, 3);
     });
   });
+  context('behaviors', function() {
+    var enemy = new Enemy(400, 550, 10, 1, 3);
+
+    it('should have a draw function', function(){
+      assert.isFunction(enemy.draw);
+    });
+
+    it('should have an update function', function(){
+      assert.isFunction(enemy.update);
+    });
+  });
 });
