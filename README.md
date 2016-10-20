@@ -9,7 +9,7 @@ This project was done by [Jason Hanna](https://github.com/Automatic365) and [Lan
 
 - [Original Sinuous](http://www.sinuousgame.com/)
 
-- [Our Sinuous](https://github.com/Automatic365/gametime)
+- [Our Sinuous](https://automatic365.github.io/gametime/)
 
 ## Directions:
 
